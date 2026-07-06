@@ -1,0 +1,52 @@
+{
+  "greeting": [
+    "Hello! Welcome to our support chat. How can I help you today?",
+    "Hi there! What can I do for you?",
+    "Hey! I'm here to help. What do you need?"
+  ],
+  "goodbye": [
+    "Goodbye! Have a great day.",
+    "Thanks for reaching out, take care!",
+    "See you next time!"
+  ],
+  "thanks": [
+    "You're welcome!",
+    "Happy to help!",
+    "Anytime! Let me know if you need anything else."
+  ],
+  "order_status": [
+    "You can track your order using the tracking link sent to your email after purchase.",
+    "Please share your order ID and I can help check its status.",
+    "Orders usually ship within 2-3 business days. Do you have your order number handy?"
+  ],
+  "refund_policy": [
+    "We offer refunds within 30 days of purchase, as long as the item is unused and in original packaging.",
+    "You can request a return from your order history page, or reply here with your order ID and I'll start the process."
+  ],
+  "shipping_info": [
+    "Standard shipping takes 3-5 business days. Express shipping is available for 1-2 day delivery.",
+    "We currently ship within the country; international shipping is not yet supported.",
+    "Shipping costs depend on your location and are calculated at checkout."
+  ],
+  "payment_issue": [
+    "Sorry about that! Please check that your card details are correct and try again.",
+    "If you were charged twice, this is usually a temporary hold that clears in 2-3 business days. Want me to escalate this?"
+  ],
+  "business_hours": [
+    "We're open Monday to Saturday, 9 AM to 6 PM.",
+    "Our support team is available 9 AM - 6 PM, Mon-Sat."
+  ],
+  "complaint": [
+    "I'm sorry to hear that. Can you tell me more about what happened so I can help fix it?",
+    "That's not the experience we want for you. Let's sort this out \u2014 what went wrong?"
+  ],
+  "human_handoff": [
+    "Sure, I'll connect you with a human agent. Please hold on.",
+    "No problem, transferring you to our support team now."
+  ],
+  "fallback": [
+    "I'm not sure I understood that. Could you rephrase, or ask about orders, refunds, shipping, or payments?",
+    "Sorry, I didn't quite get that. Try asking about your order status, refunds, or shipping info.",
+    "I might need a human for that one \u2014 would you like me to connect you to an agent?"
+  ]
+}
