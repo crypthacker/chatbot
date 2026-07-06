@@ -1,0 +1,149 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi", "hello", "hey", "good morning", "good afternoon",
+        "is anyone there", "hey there", "hello there", "howdy",
+        "what's up", "yo", "hiya", "good evening", "morning",
+        "hey bot", "anyone available", "greetings"
+      ],
+      "responses": [
+        "Hello! Welcome to {business_name} support. How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! I'm here to help. What do you need?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye", "goodbye", "see you later", "talk to you later",
+        "i have to go", "thanks bye", "that's all", "gotta go"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "Thanks for reaching out, take care!",
+        "See you next time!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks", "thank you", "that helped", "thanks a lot",
+        "appreciate it", "thank you so much", "thanks so much",
+        "thanks for the help", "great, thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "where is my order", "track my order", "order status",
+        "when will my order arrive", "has my order shipped",
+        "i want to track my package", "order tracking", "check my order",
+        "where is my package", "when will i get my order", "order not arrived",
+        "my package hasn't come yet", "tracking number", "delivery status",
+        "where's my stuff", "still waiting on my order", "order taking forever"
+      ],
+      "responses": [
+        "You can track your order using the tracking link sent to your email after purchase.",
+        "Please share your order ID and I can help check its status.",
+        "Orders usually ship within {shipping_time}. Do you have your order number handy?"
+      ]
+    },
+    {
+      "tag": "refund_policy",
+      "patterns": [
+        "how do i get a refund", "refund policy", "i want my money back",
+        "can i return this", "return policy", "how to return an item",
+        "i want a refund", "i want to return my order", "money back guarantee",
+        "can i get reimbursed", "how do refunds work", "return process"
+      ],
+      "responses": [
+        "We offer refunds within {refund_days} days of purchase, as long as the item is unused and in original packaging.",
+        "You can request a return from your order history page, or reply here with your order ID and I'll start the process."
+      ]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "how long does shipping take", "shipping cost", "do you ship internationally",
+        "delivery time", "shipping options", "how much is shipping",
+        "do you deliver overseas", "do you ship worldwide", "shipping fee",
+        "how fast is delivery", "international shipping"
+      ],
+      "responses": [
+        "Standard shipping takes {shipping_time}. {shipping_cost}",
+        "Shipping costs depend on your location and are calculated at checkout."
+      ]
+    },
+    {
+      "tag": "payment_issue",
+      "patterns": [
+        "my payment failed", "payment not going through", "card declined",
+        "i was charged twice", "billing issue", "payment problem",
+        "my card got declined", "payment error", "double charged",
+        "transaction failed", "cant complete payment"
+      ],
+      "responses": [
+        "Sorry about that! Please check that your card details are correct and try again.",
+        "If you were charged twice, this is usually a temporary hold that clears in 2-3 business days. Want me to escalate this?"
+      ]
+    },
+    {
+      "tag": "business_hours",
+      "patterns": [
+        "what are your hours", "when are you open", "business hours",
+        "are you open now", "what time do you close",
+        "what time do you open", "when do you close", "are you open today",
+        "opening hours", "working hours"
+      ],
+      "responses": [
+        "We're open {hours}.",
+        "Our support team is available {hours}."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "i want to complain", "this is bad service", "i'm not happy",
+        "i have an issue with my order", "this is frustrating",
+        "i'm disappointed"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Can you tell me more about what happened so I can help fix it?",
+        "That's not the experience we want for you. Let's sort this out — what went wrong?"
+      ]
+    },
+    {
+      "tag": "human_handoff",
+      "patterns": [
+        "talk to a human", "i want a real person", "connect me to an agent",
+        "speak to customer service", "human support", "talk to an agent",
+        "can i speak to a human", "i need a real person", "transfer me to support",
+        "get me an agent"
+      ],
+      "responses": [
+        "Sure, I'll connect you with a human agent. Please hold on.",
+        "No problem, transferring you to our support team now."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "asdkjaskdj random nonsense", "blah blah blah", "what is the meaning of life",
+        "tell me a joke", "what is the weather today", "who is the president",
+        "asdf jkl", "xyz123", "random gibberish text"
+      ],
+      "responses": [
+        "I'm not sure I understood that. Could you rephrase, or ask about orders, refunds, shipping, or payments?",
+        "Sorry, I didn't quite get that. Try asking about your order status, refunds, or shipping info.",
+        "I might need a human for that one — would you like me to connect you to an agent?"
+      ]
+    }
+  ]
+}

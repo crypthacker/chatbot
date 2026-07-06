@@ -3,13 +3,26 @@
     {
       "tag": "greeting",
       "patterns": [
-        "hi", "hello", "hey", "good morning", "good afternoon",
-        "is anyone there", "hey there", "hello there", "howdy",
-        "what's up", "yo", "hiya", "good evening", "morning",
-        "hey bot", "anyone available", "greetings"
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "is anyone there",
+        "hey there",
+        "hello there",
+        "howdy",
+        "what's up",
+        "yo",
+        "hiya",
+        "good evening",
+        "morning",
+        "hey bot",
+        "anyone available",
+        "greetings"
       ],
       "responses": [
-        "Hello! Welcome to our support chat. How can I help you today?",
+        "Hello! Welcome to IT-MATE support. How can I help you today?",
         "Hi there! What can I do for you?",
         "Hey! I'm here to help. What do you need?"
       ]
@@ -17,8 +30,14 @@
     {
       "tag": "goodbye",
       "patterns": [
-        "bye", "goodbye", "see you later", "talk to you later",
-        "i have to go", "thanks bye", "that's all", "gotta go"
+        "bye",
+        "goodbye",
+        "see you later",
+        "talk to you later",
+        "i have to go",
+        "thanks bye",
+        "that's all",
+        "gotta go"
       ],
       "responses": [
         "Goodbye! Have a great day.",
@@ -29,9 +48,15 @@
     {
       "tag": "thanks",
       "patterns": [
-        "thanks", "thank you", "that helped", "thanks a lot",
-        "appreciate it", "thank you so much", "thanks so much",
-        "thanks for the help", "great, thanks"
+        "thanks",
+        "thank you",
+        "that helped",
+        "thanks a lot",
+        "appreciate it",
+        "thank you so much",
+        "thanks so much",
+        "thanks for the help",
+        "great, thanks"
       ],
       "responses": [
         "You're welcome!",
@@ -42,25 +67,45 @@
     {
       "tag": "order_status",
       "patterns": [
-        "where is my order", "track my order", "order status",
-        "when will my order arrive", "has my order shipped",
-        "i want to track my package", "order tracking", "check my order",
-        "where is my package", "when will i get my order", "order not arrived",
-        "my package hasn't come yet", "tracking number", "delivery status"
+        "where is my order",
+        "track my order",
+        "order status",
+        "when will my order arrive",
+        "has my order shipped",
+        "i want to track my package",
+        "order tracking",
+        "check my order",
+        "where is my package",
+        "when will i get my order",
+        "order not arrived",
+        "my package hasn't come yet",
+        "tracking number",
+        "delivery status",
+        "where's my stuff",
+        "still waiting on my order",
+        "order taking forever"
       ],
       "responses": [
         "You can track your order using the tracking link sent to your email after purchase.",
         "Please share your order ID and I can help check its status.",
-        "Orders usually ship within 2-3 business days. Do you have your order number handy?"
+        "Orders usually ship within 3-5 BUSINESS DAYS. Do you have your order number handy?"
       ]
     },
     {
       "tag": "refund_policy",
       "patterns": [
-        "how do i get a refund", "refund policy", "i want my money back",
-        "can i return this", "return policy", "how to return an item",
-        "i want a refund", "i want to return my order", "money back guarantee",
-        "can i get reimbursed", "how do refunds work", "return process"
+        "how do i get a refund",
+        "refund policy",
+        "i want my money back",
+        "can i return this",
+        "return policy",
+        "how to return an item",
+        "i want a refund",
+        "i want to return my order",
+        "money back guarantee",
+        "can i get reimbursed",
+        "how do refunds work",
+        "return process"
       ],
       "responses": [
         "We offer refunds within 30 days of purchase, as long as the item is unused and in original packaging.",
@@ -70,24 +115,37 @@
     {
       "tag": "shipping_info",
       "patterns": [
-        "how long does shipping take", "shipping cost", "do you ship internationally",
-        "delivery time", "shipping options", "how much is shipping",
-        "do you deliver overseas", "do you ship worldwide", "shipping fee",
-        "how fast is delivery", "international shipping"
+        "how long does shipping take",
+        "shipping cost",
+        "do you ship internationally",
+        "delivery time",
+        "shipping options",
+        "how much is shipping",
+        "do you deliver overseas",
+        "do you ship worldwide",
+        "shipping fee",
+        "how fast is delivery",
+        "international shipping"
       ],
       "responses": [
-        "Standard shipping takes 3-5 business days. Express shipping is available for 1-2 day delivery.",
-        "We currently ship within the country; international shipping is not yet supported.",
+        "Standard shipping takes 3-5 BUSINESS DAYS. Shipping costs depend on your location and are calculated at checkout",
         "Shipping costs depend on your location and are calculated at checkout."
       ]
     },
     {
       "tag": "payment_issue",
       "patterns": [
-        "my payment failed", "payment not going through", "card declined",
-        "i was charged twice", "billing issue", "payment problem",
-        "my card got declined", "payment error", "double charged",
-        "transaction failed", "cant complete payment"
+        "my payment failed",
+        "payment not going through",
+        "card declined",
+        "i was charged twice",
+        "billing issue",
+        "payment problem",
+        "my card got declined",
+        "payment error",
+        "double charged",
+        "transaction failed",
+        "cant complete payment"
       ],
       "responses": [
         "Sorry about that! Please check that your card details are correct and try again.",
@@ -97,34 +155,49 @@
     {
       "tag": "business_hours",
       "patterns": [
-        "what are your hours", "when are you open", "business hours",
-        "are you open now", "what time do you close",
-        "what time do you open", "when do you close", "are you open today",
-        "opening hours", "working hours"
+        "what are your hours",
+        "when are you open",
+        "business hours",
+        "are you open now",
+        "what time do you close",
+        "what time do you open",
+        "when do you close",
+        "are you open today",
+        "opening hours",
+        "working hours"
       ],
       "responses": [
         "We're open Monday to Saturday, 9 AM to 6 PM.",
-        "Our support team is available 9 AM - 6 PM, Mon-Sat."
+        "Our support team is available Monday to Saturday, 9 AM to 6 PM."
       ]
     },
     {
       "tag": "complaint",
       "patterns": [
-        "i want to complain", "this is bad service", "i'm not happy",
-        "i have an issue with my order", "this is frustrating",
+        "i want to complain",
+        "this is bad service",
+        "i'm not happy",
+        "i have an issue with my order",
+        "this is frustrating",
         "i'm disappointed"
       ],
       "responses": [
         "I'm sorry to hear that. Can you tell me more about what happened so I can help fix it?",
-        "That's not the experience we want for you. Let's sort this out — what went wrong?"
+        "That's not the experience we want for you. Let's sort this out \u2014 what went wrong?"
       ]
     },
     {
       "tag": "human_handoff",
       "patterns": [
-        "talk to a human", "i want a real person", "connect me to an agent",
-        "speak to customer service", "human support", "talk to an agent",
-        "can i speak to a human", "i need a real person", "transfer me to support",
+        "talk to a human",
+        "i want a real person",
+        "connect me to an agent",
+        "speak to customer service",
+        "human support",
+        "talk to an agent",
+        "can i speak to a human",
+        "i need a real person",
+        "transfer me to support",
         "get me an agent"
       ],
       "responses": [
@@ -135,14 +208,20 @@
     {
       "tag": "fallback",
       "patterns": [
-        "asdkjaskdj random nonsense", "blah blah blah", "what is the meaning of life",
-        "tell me a joke", "what is the weather today", "who is the president",
-        "asdf jkl", "xyz123", "random gibberish text"
+        "asdkjaskdj random nonsense",
+        "blah blah blah",
+        "what is the meaning of life",
+        "tell me a joke",
+        "what is the weather today",
+        "who is the president",
+        "asdf jkl",
+        "xyz123",
+        "random gibberish text"
       ],
       "responses": [
         "I'm not sure I understood that. Could you rephrase, or ask about orders, refunds, shipping, or payments?",
         "Sorry, I didn't quite get that. Try asking about your order status, refunds, or shipping info.",
-        "I might need a human for that one — would you like me to connect you to an agent?"
+        "I might need a human for that one \u2014 would you like me to connect you to an agent?"
       ]
     }
   ]

@@ -1,6 +1,6 @@
 {
   "greeting": [
-    "Hello! Welcome to our support chat. How can I help you today?",
+    "Hello! Welcome to IT-MATE support. How can I help you today?",
     "Hi there! What can I do for you?",
     "Hey! I'm here to help. What do you need?"
   ],
@@ -17,15 +17,14 @@
   "order_status": [
     "You can track your order using the tracking link sent to your email after purchase.",
     "Please share your order ID and I can help check its status.",
-    "Orders usually ship within 2-3 business days. Do you have your order number handy?"
+    "Orders usually ship within 3-5 BUSINESS DAYS. Do you have your order number handy?"
   ],
   "refund_policy": [
     "We offer refunds within 30 days of purchase, as long as the item is unused and in original packaging.",
     "You can request a return from your order history page, or reply here with your order ID and I'll start the process."
   ],
   "shipping_info": [
-    "Standard shipping takes 3-5 business days. Express shipping is available for 1-2 day delivery.",
-    "We currently ship within the country; international shipping is not yet supported.",
+    "Standard shipping takes 3-5 BUSINESS DAYS. Shipping costs depend on your location and are calculated at checkout",
     "Shipping costs depend on your location and are calculated at checkout."
   ],
   "payment_issue": [
@@ -34,7 +33,7 @@
   ],
   "business_hours": [
     "We're open Monday to Saturday, 9 AM to 6 PM.",
-    "Our support team is available 9 AM - 6 PM, Mon-Sat."
+    "Our support team is available Monday to Saturday, 9 AM to 6 PM."
   ],
   "complaint": [
     "I'm sorry to hear that. Can you tell me more about what happened so I can help fix it?",
